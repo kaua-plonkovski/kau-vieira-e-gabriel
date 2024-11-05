@@ -1,108 +1,95 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roberdog</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: cyan;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .header {
-            width: 300px;
-            background-color: gray;
-            border-radius: 10px;
-            padding: 10px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
-        .header h1 {
-            color: cyan;
-            font-size: 24px;
-            margin: 0;
-        }
-        .header img {
-            width: 100px;
-            border-radius: 50%;
-        }
-        .content {
-            background-color: cyan;
-            padding: 10px;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        .content p {
-            margin: 5px;
-        }
-        .menu {
-            display: flex;
-            justify-content: center;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
-        .menu-item {
-            background-color: green;
-            border: 2px solid red;
-            color: black;
-            padding: 10px;
-            width: 100px;
-            text-align: center;
-            border-radius: 5px;
-        }
-        .footer {
-            display: flex;
-            justify-content: space-between;
-            background-color: blue;
-            color: white;
-            padding: 10px;
-            width: 300px;
-            border-radius: 5px;
-        }
-        .footer img {
-            width: 50px;
-            border-radius: 50%;
-        }
-    </style>
+
+    <title>RoberDog</title>
+
+    <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-    <div class="header">
-        <h1>Roberdog</h1>
-        <img src="https://example.com/bowser.png" alt="imagem.png">
-        <p>pg2</p>
-    </div>
+    <div class="container">
 
-    <div class="content">
-        <p>bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
-    </div>
+        <header class="header">
 
-    <div class="menu">
-        <div class="menu-item">
-            <h3>Cardapio</h3>
-            <p>Dacasa - $</p>
-            <p>Misto - $$</p>
-            <p>Calabresa - $$$</p>
+            <h1>RoberDog</h1>
+
+            <div class="menu">
+
+                <img src="https://via.placeholder.com/50" alt="Logo" class="logo">
+
+                <button class="page-button">Página 2</button>
+
+            </div>
+
+        </header>
+
+
+
+        <div class="content">
+
+            <div class="cardapio">
+
+                <img src="https://via.placeholder.com/100" alt="Imagem Cardápio">
+
+                <p>bla bla bla</p>
+
+            </div>
+
+            <div class="descricao">
+
+                <h2>Cardapio</h2>
+
+                <ul>
+
+                    <li>Da casa</li>
+
+                    <li>Duplo</li>
+
+                    <li>Misto</li>
+
+                </ul>
+
+            </div>
+
+            <div class="preco">
+
+                <h2>Preço</h2>
+
+                <ul>
+
+                    <li>$</li>
+
+                    <li>$$</li>
+
+                    <li>$$$</li>
+
+                </ul>
+
+            </div>
+
         </div>
-        <div class="menu-item">
-            <h3>Cardapio</h3>
-            <p>Dacasa - $</p>
-            <p>Misto - $$</p>
-            <p>Calabresa - $$$</p>
-        </div>
-    </div>
 
-    <div class="footer">
-        <div>
-            <p>Roberdog e bla bla bla</p>
+
+
+        <footer class="footer">
+
             <p>Rua bla bla bla</p>
-            <p>Telefone: 41...</p>
-        </div>
-        <img src="https://example.com/bowser.png" alt="Imagem de Bowser">
+
+            <p>RoberDog e bla bla</p>
+
+            <p>Telefone 41...</p>
+
+        </footer>
+
     </div>
 
 </body>
