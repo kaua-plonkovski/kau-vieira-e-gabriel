@@ -1,0 +1,127 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: Arial, sans-serif;
+
+}
+
+
+
+.container {
+
+    max-width: 800px;
+
+    margin: 0 auto;
+
+}
+
+
+
+.header {
+
+    background-color: #444;
+
+    color: white;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 10px;
+
+}
+
+
+
+.menu {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+}
+
+
+
+.logo {
+
+    border-radius: 50%;
+
+}
+
+
+
+.page-button {
+
+    background-color: #ddd;
+
+    border: none;
+
+    padding: 5px 10px;
+
+    cursor: pointer;
+
+}
+
+
+
+.content {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    align-items: center;
+
+    padding: 20px;
+
+    background-image: url('https://via.placeholder.com/800x400'); /* Substitua pela URL da imagem desejada */
+
+    background-size: cover;
+
+    background-position: center;
+
+}
+
+
+
+.cardapio, .descricao, .preco {
+
+    background-color: rgba(255, 255, 255, 0.8);
+
+    padding: 10px;
+
+    text-align: center;
+
+    border-radius: 5px;
+
+    width: 150px;
+
+}
+
+
+
+.footer {
+
+    background-color: #56c1c5;
+
+    color: black;
+
+    text-align: center;
+
+    padding: 10px;
+
+    display: flex;
+
+    justify-content: space-around;
+
+}
